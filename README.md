@@ -9,9 +9,9 @@ A modern, animated landing page showcasing Django - the web framework for perfec
 
 ## ✨ Live Demo
 
-[View Live Demo](your-deployed-url-here) <!-- Add your deployed URL when available -->
+<!-- [View Live Demo](your-deployed-url-here) Add your deployed URL when available -->
 
-![Screenshot](screenshot.png) <!-- Add a screenshot of your landing page -->
+![Screenshot](public/iPhone-13-(iOS-15)-localhost.png) <!-- Add a screenshot of your landing page -->
 
 ## 🚀 Features
 
