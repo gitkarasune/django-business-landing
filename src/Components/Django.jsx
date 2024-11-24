@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaPython, FaDatabase, FaRocket } from 'react-icons/fa'
 import { SiDjango } from 'react-icons/si'
+import { Link } from 'react-router-dom'
 
 function Django() {
   return (
@@ -16,9 +17,11 @@ function Django() {
         <p className="text-xl text-gray-300 mb-8">
           The web framework for perfectionists with deadlines
         </p>
-        <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
-          Get Started
-        </button>
+        <Link to={"https://www.djangoproject.com/"}>
+          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+              Get Started
+          </button>
+        </Link>
       </header>
 
       {/* Features Section */}
@@ -57,9 +60,11 @@ function Django() {
           Join millions of developers who trust Django to create secure, scalable, and maintainable web applications
         </p>
         <div className="space-x-4">
+          <Link to={"https://docs.djangoproject.com/en/5.1/"}>
           <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
             Documentation
           </button>
+          </Link>
           <button className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
             Tutorial
           </button>

@@ -5,6 +5,7 @@ function App() {
 
   return (
     <>
+    {/* <Link to={"/"}>ys</Link> */}
       <Django/>
     </>
   )
