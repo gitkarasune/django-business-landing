@@ -73,7 +73,7 @@ function Django() {
 
       {/* Footer */}
       <footer className="container mx-auto px-6 py-8 text-center text-gray-400 border-t border-gray-800">
-        <p>© 2024 Django. The Web framework for perfectionists with deadlines.</p>
+        <p>© 2024 Django. Built on top of react.</p>
       </footer>
     </div>
   )
